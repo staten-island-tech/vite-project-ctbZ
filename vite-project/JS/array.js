@@ -1,4 +1,4 @@
-const switches = [
+export const switches = [
     {
       Name: "Gateron Oil King Linear Switches",
       Type: "Linear",
@@ -49,5 +49,3 @@ const switches = [
         IMG: "https://cdn.shopify.com/s/files/1/0275/3649/0561/products/kailh-box-jade-thick-switches-500562.jpg?v=1609901920",
       },
   ];
-  
-  export { switches };

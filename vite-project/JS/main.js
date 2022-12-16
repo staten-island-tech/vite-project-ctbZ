@@ -1,16 +1,15 @@
-import { switches } from  "..js/array";
-import { DOM } from "..js/DOM";
-import "..styles/header.css";
-import "..styles/cards.css";
+import { switches } from  "./array";
+import { DOM } from "./DOM";
+import "../styles/header.css";
+import "../styles/cards.css";
 
 switches.forEach((switches) =>
-  DOM.MenuPage.insertAdjacentHTML(
+  document.getElementById("switchpage").insertAdjacentHTML(
     "beforeend",
+    `<div class="cards">
+    <img class="IMG" src="${switches.IMG}"><img>
+    <h2 class="CardName">${switches.Name}</h2>
+    <h3 class="CardPrice">$${switches.Price}</h3>
+    </div>
     `
-<div class="cards">
-<img class="IMG" src="${switches.IMG}"><img>
-<h1 class="CardName">${switches.Name}</h1>
-<h2 class="CardPrice">$${switches.Price}</h2>
-</div>
-`
 ));
