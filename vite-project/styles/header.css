@@ -5,6 +5,9 @@ html, body, *{
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
     }
+body {
+    background-color: rgb(236, 236, 236);
+}
 .main-header {
     display: flex;
     flex-direction: row;
