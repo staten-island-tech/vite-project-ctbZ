@@ -6,7 +6,7 @@
     text-align: left;
     font-size: 5rem;
     line-height: 3rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
 }
 h2, h3 {
     text-align: left;
@@ -24,5 +24,6 @@ h2, h3 {
 }
 .img {
     width: 100%;
+    border-radius: 0.5rem;
     
 }
