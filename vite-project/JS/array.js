@@ -132,4 +132,11 @@ export const switches = [
         Price: 0.55,
         IMG: "https://cdn.shopify.com/s/files/1/0275/3649/0561/products/jwick-ginger-milk-linear-switches-725229.webp?v=1657619533",
       },
+    {
+        Name: "C³Equalz X TKC Dragon Fruit",
+        Type: "Tactile",
+        Brand: "C³Equalz",
+        Price: 0.65,
+        IMG: "https://cdn.shopify.com/s/files/1/0275/3649/0561/products/c3equalz-x-tkc-dragon-fruit-tactile-switches-417109.jpg?v=1634691406",
+      },
   ];
