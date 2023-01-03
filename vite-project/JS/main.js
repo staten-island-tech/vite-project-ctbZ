@@ -1,7 +1,8 @@
 import { switches } from  "./array";
 import { DOM } from "./DOM";
-import "../styles/header.css";
-import "../styles/cards.css";
+import "../styles/styles.css";
+
+
 
 switches.forEach((switches) =>
   document.getElementById("switchpage").insertAdjacentHTML(
@@ -66,3 +67,43 @@ function clickypage(){
     `
 ))
 }
+DOM.all.addEventListener("click", function(){
+  DOM.switchpage.innerHTML = ""
+  allpage();
+})
+
+function allpage(){
+  switches.forEach((switches) =>
+  document.getElementById("switchpage").insertAdjacentHTML(
+    "beforeend",
+    `<div class="cards">
+    <img class="IMG" src="${switches.IMG}"><img>
+    <h2 class="CardName">${switches.Name}</h2>
+    <h3 class="CardPrice">$${switches.Price}</h3>
+    </div>
+    `
+));
+}
+DOM.light.addEventListener("click", function () {
+  if (DOM.body.classList.contains("dark")) {
+    DOM.body.classList.add("light");
+    DOM.body.classList.remove("dark");
+  } else {
+    DOM.body.classList.add("light");
+    DOM.body.classList.remove("dark");
+  }
+});
+
+DOM.dark.addEventListener("click", function () {
+  if (DOM.body.classList.contains("light")) {
+    DOM.body.classList.add("dark");
+    DOM.body.classList.remove("light");
+  } else {
+    DOM.body.classList.add("dark");
+    DOM.body.classList.remove("light");
+  }
+});
+
+DOM.dark.addEventListener("click", function () {
+ DOM.title.classList.add("change")
+});
