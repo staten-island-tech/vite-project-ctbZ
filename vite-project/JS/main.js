@@ -103,7 +103,3 @@ DOM.dark.addEventListener("click", function () {
     DOM.body.classList.remove("light");
   }
 });
-
-DOM.dark.addEventListener("click", function () {
- DOM.title.classList.add("change")
-});
