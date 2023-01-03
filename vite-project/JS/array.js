@@ -49,14 +49,14 @@ const switches = [
         IMG: "https://cdn.shopify.com/s/files/1/0275/3649/0561/products/kailh-box-jade-thick-switches-500562.jpg?v=1609901920",
       },
     {
-        Name: "C³Equalz X TKC Kiwi",
+        Name: "Owlab Neon",
         Type: "Linear",
         Brand: "Owlab",
         Price: "0.58",
         IMG: "https://cdn.shopify.com/s/files/1/0275/3649/0561/products/owlab-neon-linear-switches-227751.webp?v=1664497965",
       },
     {
-        Name: "Owlab Neon",
+        Name: "C³Equalz X TKC Kiwi",
         Type: "Tactile",
         Brand: "C³Equalz",
         Price: "0.65",
